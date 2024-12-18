@@ -12,7 +12,7 @@ interface Props {
   data: OurCompanyPageData;
 }
 const OurCompany = ({ data }: Props) => {
-  const { aboutUs, sectionTwo, locationSection, sectionFour } = data;
+  const { aboutUs, sectionTwo, sectionFour } = data;
   return (
     <Container fluid className="ourCompanyContainer">
       <Row>

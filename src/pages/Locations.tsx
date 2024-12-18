@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from "react";
+import { Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import LocationComponent from "src/components/LocationComponent";
