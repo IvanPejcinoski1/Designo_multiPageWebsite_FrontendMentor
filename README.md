@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Frontend Mentor - Designo multi-page website
 
-## Getting Started
+![Design preview for the Hangman game coding challenge](./public/starter-code/assets/preview.PNG)
 
-First, run the development server:
+## **About Designo multi-page website**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Designo is a design agency that offers creative services for both individuals and businesses. The website showcases their web and graphic design projects, aiming to bring client ideas to life with innovative design and development.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This multi-page website highlights Designo's services in a simple, easy-to-navigate platform. With elegant design, smooth transitions, and user-friendly navigation, the site ensures a great experience for visitors.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## **Features**
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **Multiple Pages:** The website includes dedicated pages for About, Services, Portfolio,
+  and Contact to provide detailed information about the agency and its offerings.
+- **Responsive Design:** Fully optimized for all devices, ensuring a seamless experience across mobile, tablet, and desktop screens
+- **Smooth Navigation:** An intuitive and user-friendly navigation structure for easy exploration of the site and its content.
+- **Portfolio Gallery:** A showcase of previous design projects, complete with hover effects and interactive elements to engage visitors.
+- **Contact Form:** A simple, user-friendly form for potential clients to easily reach out and get in touch with the agency.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## **Technologies Used**
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React**: For building the user interface.
+- **TypeScript**: For type safety and better code maintainability.
+- **Bootstrap**: For styling.
+- **SCSS**: For enhanced CSS styling.
+- **Next.js:**: For server-side rendering, ensuring faster loading.
+- **React Hook Form**: For handling form submissions and validation with minimal re-renders.
+- **Zod**: For schema validation and type-safe form handling.
 
-## Learn More
+## **Setup and Installation**
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Node.js installed on your system.
+- Basic knowledge of npm.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+   ```bash
+   https://github.com/IvanPejcinoski1/Designo_multiPage_webiste_FrontEndMentor.git
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+2. Navigate to the project directory: cd designo_website
+3. Install dependencies: npm install
+4. Start the development server:npm run dev
+5. Visit http://localhost:3000 in your browser to see the website in action.
