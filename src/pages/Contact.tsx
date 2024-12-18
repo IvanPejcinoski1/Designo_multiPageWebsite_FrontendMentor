@@ -1,12 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useRouter } from "next/router";
 import { GetStaticProps } from "next";
 import { ContactData } from "src/types";
 import contactPageData from "../../pageData/contactPageData.js";
@@ -31,8 +29,6 @@ const schema = z.object({
 type FormFields = z.infer<typeof schema>;
 
 const Contact = ({ data }: { data: ContactData }) => {
-  const router = useRouter();
-  const { pathname } = router;
   const {
     register,
     handleSubmit,
@@ -47,9 +43,8 @@ const Contact = ({ data }: { data: ContactData }) => {
     try {
       await new Promise((resolve) => setTimeout(resolve, 1000));
       console.log("Form Data:", data);
-      // Simulate a server-side error
       throw new Error("Simulated server-side error");
-    } catch (error) {
+    } catch {
       setError("email", {
         type: "manual",
         message: "This email is already taken",

@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useContext } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.css";
-// Add the following imports after running 'npm install react-bootstrap@latest bootstrap@latest react-router-dom@latest @fortawesome/fontawesome-free':
 
 interface Props {
   header: string;

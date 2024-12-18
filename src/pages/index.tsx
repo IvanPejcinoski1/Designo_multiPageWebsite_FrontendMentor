@@ -16,7 +16,13 @@ const Home = ({ data }: { data: PageData }) => {
           <Row>
             <Col className="banner d-flex flex-lg-column justify-content-center pe-0">
               <div className="text-white   text-center text-lg-start awardText ">
-                <TextEffect as="h1" className="py-3">
+                <TextEffect
+                  per="word"
+                  delay={0.5}
+                  preset="fade"
+                  as="h1"
+                  className="py-3"
+                >
                   {data.banner.title}
                 </TextEffect>
                 <p className="mb-md-5 mb-lg-0 pb-4">
